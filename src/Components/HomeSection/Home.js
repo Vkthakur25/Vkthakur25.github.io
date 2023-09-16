@@ -1,9 +1,9 @@
 import React from 'react';
-import BackImage from './BackImage'
+import Navbar from './Navbar'
 function Home(){
   return(
     <>
-    <BackImage />
+    <Navbar />
     </>
   )
 };
