@@ -4,18 +4,18 @@ function Navbar() {
   return (
     <>
       <section className="bg-lightMode d-flex">
-        <div
-          className=""
-          style={{ height: '12vh', width: '94vw', border: '2px solid black' }}
-        >
-          <ul className="d-flex" style={{ 'margin-left': '7rem' }}>
+        <div className="" style={{ height: '12vh', width: '94vw' }}>
+          <ul
+            className="d-flex"
+            style={{ 'margin-left': '5rem', 'margin-top': '2rem' }}
+          >
             <li className=" fs-4 list-unstyled">
               <a className="text-decoration-none text-black" href="">
                 {' '}
                 Home
               </a>
             </li>
-            <li className="mx-4 fs-4 list-unstyled">
+            <li className="mx-5 fs-4 list-unstyled">
               <a className="text-decoration-none text-black" href="">
                 {' '}
                 About
@@ -27,7 +27,7 @@ function Navbar() {
                 Projects
               </a>
             </li>
-            <li className="mx-4 fs-4 list-unstyled">
+            <li className="mx-5 fs-4 list-unstyled">
               <a className="text-decoration-none text-black" href="">
                 {' '}
                 Contact
@@ -35,10 +35,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div
-          className=""
-          style={{ height: '80vh', width: '6vw', border: '2px solid black' }}
-        >
+        <div className="" style={{ height: '80vh', width: '6vw' }}>
           <div className="social-box ">
             <img
               className="social"
