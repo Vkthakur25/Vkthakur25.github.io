@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import Home from './Components/HomeSection/Home'
-// import BackImage from '../Components/HomeSection/BackImage'
+import Navbar from './Components/HomeSection/Navbar'
 function App() {
   return (
     <>
-    
+   <Navbar /> 
    <Home />
     
     </>
